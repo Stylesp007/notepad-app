@@ -1,0 +1,1 @@
+A simple note taking application, using the local storage in a users browser.

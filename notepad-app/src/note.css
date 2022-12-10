@@ -1,0 +1,41 @@
+body {
+  margin: 0px;
+  background-color: lightblue;
+}
+
+.note {
+  height: 200px;
+  box-sizing: border-box;
+  padding: 16px;
+  border: 1px solid rgb(192, 192, 192);
+  border-radius: 60px;
+  box-shadow: 0 0 7px rgba(0, 0 ,0 , 0.15);
+  resize: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+}
+
+#app{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  padding: 24px;
+  gap: 24px;
+  
+  
+}
+.add-note-button {
+  height:200px;
+  border: 1px solid rgb(192, 192, 192);
+  outline: none;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 120px;
+  color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  border-radius: 60px;
+  transition: 0.15s;
+}
+
+.add-note-button:hover{
+  background-color: grey;
+
+}
